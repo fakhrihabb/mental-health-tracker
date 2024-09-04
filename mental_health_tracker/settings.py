@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-^cpjw764z8+r&wl%w%8nu7td7b_v^aq2xh&p%v#dumq)lmwvfd
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "fakhri-habibi-mentalhealthtracker.pbp.cs.ui.ac.id"]
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'main',
 ]
 
 MIDDLEWARE = [
