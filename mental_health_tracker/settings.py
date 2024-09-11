@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-^cpjw764z8+r&wl%w%8nu7td7b_v^aq2xh&p%v#dumq)lmwvfd
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1", "fakhri-habibi-mentalhealthtracker.pbp.cs.ui.ac.id"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "fakhri-habibi-mentalll.pbp.cs.ui.ac.id"]
 
 
 # Application definition
@@ -123,4 +123,4 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CSRF_TRUSTED_ORIGINS = ["http://localhost","http://127.0.0.1","http://http://fakhri-habibi-mentalhealthtracker.pbp.cs.ui.ac.id/", "https://http://fakhri-habibi-mentalhealthtracker.pbp.cs.ui.ac.id/"]
+CSRF_TRUSTED_ORIGINS = ["http://localhost","http://127.0.0.1","http://http://fakhri-habibi-mentalll.pbp.cs.ui.ac.id/", "https://http://fakhri-habibi-mentalll.pbp.cs.ui.ac.id/"]
